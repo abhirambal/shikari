@@ -99,5 +99,5 @@ Arguments:
   <ATTEMPT>  Attempt number (1, 2, or 3)
   <MINUTES>  Time to solve in minutes
 ```
-./target/debug/shikari update-time 6 2 10
+> ./target/debug/shikari update-time 6 2 10
 
