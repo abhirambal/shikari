@@ -1,0 +1,8 @@
+[package]
+name = "shikari"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+rusqlite = "0.28.0"
+clap = { version = "4.3.0", features = ["derive"] }
