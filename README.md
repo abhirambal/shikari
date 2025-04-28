@@ -35,6 +35,7 @@ Options:
 
 ## Examples
 ### Add a new problem
+```
 > ./target/debug/shikari add --help
 Add a new problem
 
@@ -53,10 +54,12 @@ Options:
   -r, --review                   Should solve again
   -h, --help                     Print help
   -V, --version                  Print version
-  
+```
+
 > ./target/debug/shikari add "Buy and sell stock II" --link "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/" --category "Arrays" --pattern "greedy" --difficulty "medium" --time 30 --comments "track the min to max increase greedily"
 
 ### List problems you have solved
+
 > ./target/debug/shikari list
 All Problems (7)
 
@@ -85,6 +88,7 @@ Problem #7: Buy and sell stock II (medium) - Category: Arrays - Pattern: greedy
   Comments: track the min to max increase greedily
 
 ### Update time
+```
 ./target/debug/shikari update-time --help
 Update a problem's solve time
 
@@ -94,6 +98,6 @@ Arguments:
   <ID>       Problem ID
   <ATTEMPT>  Attempt number (1, 2, or 3)
   <MINUTES>  Time to solve in minutes
-  
+```
 ./target/debug/shikari update-time 6 2 10
 
