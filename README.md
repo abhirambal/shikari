@@ -10,6 +10,7 @@ shikari helps you monitor your progress through DSA problems by:
 - Generating statistics on your problem-solving journey (TBD)
 
 ## Usage
+```
 Usage: shikari [OPTIONS] <COMMAND>
 
 Commands:
@@ -30,10 +31,11 @@ Options:
   -d, --database <DATABASE>  Path to the SQLite database file [default: problems.db]
   -h, --help                 Print help
   -V, --version              Print version
+```
 
 ## Examples
 ### Add a new problem
-./target/debug/shikari add --help
+> ./target/debug/shikari add --help
 Add a new problem
 
 Usage: shikari add [OPTIONS] <DESCRIPTION>
